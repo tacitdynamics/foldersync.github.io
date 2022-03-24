@@ -71,4 +71,8 @@ nav:
     - Import configuration: mdm/import.md    
   - FAQ:
     - General: faq/index.md
-    - Scheduling: faq/scheduling.md    
+    - Scheduling issues: faq/scheduling.md
+    - Sync issues: faq/sync.md   
+    - Google Drive issues: faq/drive.md    
+    - WebDAV issues: faq/webdav.md    
+    - Google Play: faq/googleplay.md    

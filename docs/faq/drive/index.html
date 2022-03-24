@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://foldersync.io/docs/faq/scheduling/">
+        <link rel="canonical" href="https://foldersync.io/docs/faq/drive/">
       
       <link rel="icon" href="../../favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.6">
     
     
       
-        <title>Scheduling issues - FolderSync Documentation</title>
+        <title>Google Drive issues - FolderSync Documentation</title>
       
     
     
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#scheduleding-issues" class="md-skip">
+        <a href="#google-drive-issues" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Scheduling issues
+              Google Drive issues
             
           </span>
         </div>
@@ -750,73 +750,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Scheduling issues
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../scheduling/" class="md-nav__link">
         Scheduling issues
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#battery-optimization" class="md-nav__link">
-    Battery optimization
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wifi-ssid-not-detected" class="md-nav__link">
-    WiFi SSID not detected
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wifi-doesnt-turn-on" class="md-nav__link">
-    Wifi doesn't turn on
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#instant-sync-issues" class="md-nav__link">
-    Instant sync issues
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -840,11 +778,66 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../drive/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Google Drive issues
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Google Drive issues
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exisisting-account-not-working" class="md-nav__link">
+    Exisisting account not working
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browser-authentication-issue" class="md-nav__link">
+    Browser authentication issue
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syncing-to-a-shared-folder" class="md-nav__link">
+    Syncing to a shared folder
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -911,29 +904,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#battery-optimization" class="md-nav__link">
-    Battery optimization
+  <a href="#exisisting-account-not-working" class="md-nav__link">
+    Exisisting account not working
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#wifi-ssid-not-detected" class="md-nav__link">
-    WiFi SSID not detected
+  <a href="#browser-authentication-issue" class="md-nav__link">
+    Browser authentication issue
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#wifi-doesnt-turn-on" class="md-nav__link">
-    Wifi doesn't turn on
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#instant-sync-issues" class="md-nav__link">
-    Instant sync issues
+  <a href="#syncing-to-a-shared-folder" class="md-nav__link">
+    Syncing to a shared folder
   </a>
   
 </li>
@@ -952,15 +938,18 @@
                 
 
 
-<h1 id="scheduleding-issues">Scheduleding issues</h1>
-<h2 id="battery-optimization">Battery optimization</h2>
-<p>Most common issue is that the Android OS is battery optimizing the FolderSync process so it cant run scheduled sync. To ensure sync can occur in background, disable any battery optimization for FolderSync in Android settings.</p>
-<h2 id="wifi-ssid-not-detected">WiFi SSID not detected</h2>
-<p>Scheduled sync can be broken if Wifi SSID is not detected and you configured a SSID filter on folderPair connection settings - if you need FolderSync to detect SSID, please allow it background access to location on newer versions of Android. If you already gave permission to only allow while app is in use, you have to go to Android app settings for FolderSync and give location permission again for background use. If you don't wan't to do that, remove SSID filter configuration on folderpair.</p>
-<h2 id="wifi-doesnt-turn-on">Wifi doesn't turn on</h2>
-<p>Unfortunately Android no longer allows turning on WiFi for apps targeting Android 10.</p>
-<h2 id="instant-sync-issues">Instant sync issues</h2>
-<p>On Android 6.x/7.x instant sync functionality will not work for most devices for external SD card. This is an Android bug or perhaps a new undocumented limitation by Google. Nothing we can do about it unfortunately.</p>
+<h1 id="google-drive-issues">Google Drive issues</h1>
+<h2 id="exisisting-account-not-working">Exisisting account not working</h2>
+<p>Please try to re-authenticate account or if that fails re-add Google Drive account and update FolderPairs to use newly added account. Some old API keys used by FolderSync can no longer be used, so adding a new account can unfortunately be required.</p>
+<h2 id="browser-authentication-issue">Browser authentication issue</h2>
+<p>If you have issues authenticating, please ensure Chrome browser is installed and it is the default browser. If issue persist try clearing data for Chrome browser in Android App settings. Firefox has also been reported by some users to work. Simple browsers on app store that use an internal standard WebView with not be able to work with the security measures Google is enforcing.</p>
+<h2 id="syncing-to-a-shared-folder">Syncing to a shared folder</h2>
+<p>If you want to sync to a folder somebody has shared with you, you need to add it it your drive. This can be done in the Google Drive browser interface. </p>
+<pre><code>1. Open the "Shared with me" section. 
+2. Click a folder or files to be added to another location. (it will be highlighted) 
+3. Press down "Shift + Z" 
+4. Choose a location in a dialog box.
+</code></pre>
 
               
             </article>
@@ -974,7 +963,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: General" rel="prev">
+        <a href="../sync/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Sync issues" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -983,20 +972,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              General
+              Sync issues
             </div>
           </div>
         </a>
       
       
         
-        <a href="../sync/" class="md-footer__link md-footer__link--next" aria-label="Next: Sync issues" rel="next">
+        <a href="../webdav/" class="md-footer__link md-footer__link--next" aria-label="Next: WebDAV issues" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Sync issues
+              WebDAV issues
             </div>
           </div>
           <div class="md-footer__button md-icon">

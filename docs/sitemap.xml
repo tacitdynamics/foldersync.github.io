@@ -16,7 +16,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://foldersync.io/docs/faq/drive/</loc>
+         <lastmod>2022-03-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/faq/googleplay/</loc>
+         <lastmod>2022-03-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://foldersync.io/docs/faq/scheduling/</loc>
+         <lastmod>2022-03-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/faq/sync/</loc>
+         <lastmod>2022-03-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/faq/webdav/</loc>
          <lastmod>2022-03-24</lastmod>
          <changefreq>daily</changefreq>
     </url>

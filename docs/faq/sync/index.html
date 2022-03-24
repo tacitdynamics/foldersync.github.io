@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://foldersync.io/docs/faq/scheduling/">
+        <link rel="canonical" href="https://foldersync.io/docs/faq/sync/">
       
       <link rel="icon" href="../../favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.6">
     
     
       
-        <title>Scheduling issues - FolderSync Documentation</title>
+        <title>Sync issues - FolderSync Documentation</title>
       
     
     
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#scheduleding-issues" class="md-skip">
+        <a href="#sync-issues" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Scheduling issues
+              Sync issues
             
           </span>
         </div>
@@ -750,6 +750,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../scheduling/" class="md-nav__link">
+        Scheduling issues
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -762,12 +776,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Scheduling issues
+          Sync issues
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Scheduling issues
+        Sync issues
       </a>
       
         
@@ -786,29 +800,106 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#battery-optimization" class="md-nav__link">
-    Battery optimization
+  <a href="#how-do-i-avoid-conflicts-when-configuring-a-new-folderpair-where-both-folders-already-contains-all-the-files" class="md-nav__link">
+    How do I avoid conflicts when configuring a new folderpair where both folders already contains all the files?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#wifi-ssid-not-detected" class="md-nav__link">
-    WiFi SSID not detected
+  <a href="#on-android-11-androiddata-folder-can-no-longer-be-accessed-why" class="md-nav__link">
+    On Android 11 /Android/data folder can no longer be accessed, why?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#wifi-doesnt-turn-on" class="md-nav__link">
-    Wifi doesn't turn on
+  <a href="#why-does-instant-sync-not-work" class="md-nav__link">
+    Why does instant sync not work?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#instant-sync-issues" class="md-nav__link">
-    Instant sync issues
+  <a href="#why-do-i-get-sync-errors-when-my-amazon-s3-bucket-name-has-a-period-in-it" class="md-nav__link">
+    Why do I get sync errors when my Amazon S3 bucket name has a period in it?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-conflict-setting-and-how-does-it-work" class="md-nav__link">
+    What is the conflict setting and how does it work?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-do-files-sometimes-get-transferred-even-if-they-havent-changes" class="md-nav__link">
+    Why do files sometimes get transferred even if they haven't changes?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-is-there-no-overall-sync-progress-shown" class="md-nav__link">
+    Why is there no overall sync progress shown?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-dont-my-scheduled-sync-run" class="md-nav__link">
+    Why don't my scheduled sync run?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-are-modification-timestamps-for-files-updated" class="md-nav__link">
+    When are modification timestamps for files updated?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-are-my-files-not-being-synced-correctly" class="md-nav__link">
+    Why are my files not being synced correctly?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#foldersync-doesnt-delete-removed-files-in-a-two-way-sync-why" class="md-nav__link">
+    FolderSync doesn't delete removed files in a two-way sync. Why?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#foldersync-overwrite-changes-in-my-localremote-file-and-uses-the-oldest-file" class="md-nav__link">
+    FolderSync overwrite changes in my local/remote file and uses the oldest file?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#foldersync-sometimes-sync-files-that-havent-changed-why" class="md-nav__link">
+    FolderSync sometimes sync files that haven't changed. Why?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sync-failing-because-of-file-conflicts" class="md-nav__link">
+    Sync failing because of file conflicts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bad-request-errors-or-failing-folderpairs" class="md-nav__link">
+    Bad request errors or failing folderpairs
   </a>
   
 </li>
@@ -817,20 +908,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sync/" class="md-nav__link">
-        Sync issues
-      </a>
     </li>
   
 
@@ -911,29 +988,106 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#battery-optimization" class="md-nav__link">
-    Battery optimization
+  <a href="#how-do-i-avoid-conflicts-when-configuring-a-new-folderpair-where-both-folders-already-contains-all-the-files" class="md-nav__link">
+    How do I avoid conflicts when configuring a new folderpair where both folders already contains all the files?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#wifi-ssid-not-detected" class="md-nav__link">
-    WiFi SSID not detected
+  <a href="#on-android-11-androiddata-folder-can-no-longer-be-accessed-why" class="md-nav__link">
+    On Android 11 /Android/data folder can no longer be accessed, why?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#wifi-doesnt-turn-on" class="md-nav__link">
-    Wifi doesn't turn on
+  <a href="#why-does-instant-sync-not-work" class="md-nav__link">
+    Why does instant sync not work?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#instant-sync-issues" class="md-nav__link">
-    Instant sync issues
+  <a href="#why-do-i-get-sync-errors-when-my-amazon-s3-bucket-name-has-a-period-in-it" class="md-nav__link">
+    Why do I get sync errors when my Amazon S3 bucket name has a period in it?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-conflict-setting-and-how-does-it-work" class="md-nav__link">
+    What is the conflict setting and how does it work?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-do-files-sometimes-get-transferred-even-if-they-havent-changes" class="md-nav__link">
+    Why do files sometimes get transferred even if they haven't changes?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-is-there-no-overall-sync-progress-shown" class="md-nav__link">
+    Why is there no overall sync progress shown?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-dont-my-scheduled-sync-run" class="md-nav__link">
+    Why don't my scheduled sync run?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-are-modification-timestamps-for-files-updated" class="md-nav__link">
+    When are modification timestamps for files updated?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-are-my-files-not-being-synced-correctly" class="md-nav__link">
+    Why are my files not being synced correctly?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#foldersync-doesnt-delete-removed-files-in-a-two-way-sync-why" class="md-nav__link">
+    FolderSync doesn't delete removed files in a two-way sync. Why?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#foldersync-overwrite-changes-in-my-localremote-file-and-uses-the-oldest-file" class="md-nav__link">
+    FolderSync overwrite changes in my local/remote file and uses the oldest file?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#foldersync-sometimes-sync-files-that-havent-changed-why" class="md-nav__link">
+    FolderSync sometimes sync files that haven't changed. Why?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sync-failing-because-of-file-conflicts" class="md-nav__link">
+    Sync failing because of file conflicts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bad-request-errors-or-failing-folderpairs" class="md-nav__link">
+    Bad request errors or failing folderpairs
   </a>
   
 </li>
@@ -952,15 +1106,125 @@
                 
 
 
-<h1 id="scheduleding-issues">Scheduleding issues</h1>
-<h2 id="battery-optimization">Battery optimization</h2>
-<p>Most common issue is that the Android OS is battery optimizing the FolderSync process so it cant run scheduled sync. To ensure sync can occur in background, disable any battery optimization for FolderSync in Android settings.</p>
-<h2 id="wifi-ssid-not-detected">WiFi SSID not detected</h2>
-<p>Scheduled sync can be broken if Wifi SSID is not detected and you configured a SSID filter on folderPair connection settings - if you need FolderSync to detect SSID, please allow it background access to location on newer versions of Android. If you already gave permission to only allow while app is in use, you have to go to Android app settings for FolderSync and give location permission again for background use. If you don't wan't to do that, remove SSID filter configuration on folderpair.</p>
-<h2 id="wifi-doesnt-turn-on">Wifi doesn't turn on</h2>
-<p>Unfortunately Android no longer allows turning on WiFi for apps targeting Android 10.</p>
-<h2 id="instant-sync-issues">Instant sync issues</h2>
-<p>On Android 6.x/7.x instant sync functionality will not work for most devices for external SD card. This is an Android bug or perhaps a new undocumented limitation by Google. Nothing we can do about it unfortunately.</p>
+<h1 id="sync-issues">Sync issues</h1>
+<h2 id="how-do-i-avoid-conflicts-when-configuring-a-new-folderpair-where-both-folders-already-contains-all-the-files">How do I avoid conflicts when configuring a new folderpair where both folders already contains all the files?</h2>
+<p>If a file that has not been synced before by FolderSync, exists both locally and remote when syncing and the two corresponding files do not have an identical modified timestamp, then you will get a conflict error for the files. 
+The same conflict will happen for a file that has been previously synced, when both the local and remote file has changed since last sync (both files get updated by your or another app with new timestamps and perhaps new content).</p>
+<p>To eliminate this conflict when configuring a folderPair for the first time, and you KNOW the files are identical, you can set "FolderPair -&gt; Sync option -&gt; If both local and remote file are modified" option to "Assume files are identical". Only do this as a temporary thing for the first sync and only if you are 100% sure the files in both local and remote folder are indeed identical.</p>
+<h2 id="on-android-11-androiddata-folder-can-no-longer-be-accessed-why">On Android 11 <sdcard>/Android/data folder can no longer be accessed, why?</h2>
+<p>Android 11 has new file permission requirements and has restricted access to certain folders, like the data folder. It may be possible to add a specific Storage Access Framework permission on permissions screen to allow access to this folder, but unfortunately this will not work on all devices and may stop working completely in the future if Google wants it to.</p>
+<p>Note: Built-in vendor file managers can still access protected folders in some cases.</p>
+<h2 id="why-does-instant-sync-not-work">Why does instant sync not work?</h2>
+<p>This feature works only for local files device. When enabled, local file changes will be detected in the device folder, and a immediate partial sync will be attempted if other folderpair conditions allow this, such as network settings. Some custom ROMs may not support this. Newer versions of Android may not support this feature on external SD cards, since it appears folder/file change events are not propogated to apps properly.</p>
+<h2 id="why-do-i-get-sync-errors-when-my-amazon-s3-bucket-name-has-a-period-in-it">Why do I get sync errors when my Amazon S3 bucket name has a period in it?</h2>
+<p>Unfortunately bucket names with periods (.) in them is no longer supported by the Amazon API. This is because it results in SSL certificate errors when the Amazon server is accessed by an url like https://some.bucket.name.s3.amazonaws.com. I recommend the period character is replaced by a dash or other legal domain name character.</p>
+<h2 id="what-is-the-conflict-setting-and-how-does-it-work">What is the conflict setting and how does it work?</h2>
+<p>When syncing a conflict can occur when both the local and the remote file has been modified since the last sync. You then have four options: to skip the file, to use the newest file or to use either the local or the remote file.
+A conflict gets detected when both the local and remote modified time stamp for the file has changed since last sync - FolderSync could then of course just use the newest file, but then what if you had made some changes to the "older" file, that you wanted to save?
+A conflict will not be detected in cases where the modified time stamp is within the threshold for modified time stamp bug fix setting</p>
+<h2 id="why-do-files-sometimes-get-transferred-even-if-they-havent-changes">Why do files sometimes get transferred even if they haven't changes?</h2>
+<p>There is some kind of bug on some Android versions, where timestamps of files change independently of Foldersync, even if they haven't changed. It could be caused by media scanning the SD card, remounting or rebooting or perhaps issues with timezones but we do not know for sure. We don't have the problem on our test devices, and currently only a small subset of users have this problem.
+We are looking into handling this issue using md5 checksum to see if local files have changed before they are synced again. Look for it in a future release.
+If the timestamp of a remote file change, for whatever reason, even if the file is unchanged, then FolderSync will not be able to detect it and the file may be retransferrred.</p>
+<h2 id="why-is-there-no-overall-sync-progress-shown">Why is there no overall sync progress shown?</h2>
+<p>FolderSync's current sync engine progresses through the folder structure of the remote and local folders as they sync runs, and process each folder on its own. FolderSync doesn't know how many sub folders and files that may remain to be synced in folders not yet processed. It is perhaps possible to list all files/folders before syncing of changed files starts, but it may still take a long time to calculate this because it can depend on 1000's of web requests for large folder structures, and when no files are synced, this is essentially what happens anyway.</p>
+<p>Think about it like this: if you run a sync where no files are transferred, the time that the sync needs to run, is the same time as is needed to calculate the number files to be synced (if there had been any). So it doesn't make sense to show progress for syncs's where no files are transferred (because when the calculation is ready, the sync has completed). </p>
+<p>A future version of FolderSync may include a updated sync engine, where this calculation is done, and all files are transferred at the end of the sync. Then it will be possible to show how many file transfers remain in sync.</p>
+<h2 id="why-dont-my-scheduled-sync-run">Why don't my scheduled sync run?</h2>
+<p>There can be many reasons for this. If you have the app installed on SD card, the scheduler will not be set on boot up of the device because of limitations in the Android OS. This is why FolderSync from version 1.7.0 on will have its install location set to "internalOnly". Otherwise it will mean scheduled syncs will not run until you have started FolderSync at least once.
+Another reason can be that the connection type is not allowed for the folderpair that is scheduled to sync, or some other condition is not met.
+You can also try enabling "Use full wakelock" in settings - some devices require this setting to be enabled or they will not wake correctly.</p>
+<h2 id="when-are-modification-timestamps-for-files-updated">When are modification timestamps for files updated?</h2>
+<p>Generally modified time stamp for a file is set on download and upload, not at any other time. However not all cloud providers or protocols support setting modified time stamp of uploaded files, so images that is uploaded may get a newer modified time stamp than on the device etc.. 
+This table will illustrate which providers and protocols support setting the modification time stamp for an uploaded file:</p>
+<table>
+<thead>
+<tr>
+<th>Provider/protocol</th>
+<th>Modification time stamp preserved</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amazon S3</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Box</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Dropbox</td>
+<td>No</td>
+</tr>
+<tr>
+<td>FTP</td>
+<td>Yes (if supported by server)</td>
+</tr>
+<tr>
+<td>Google Docs</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Google Drive</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>NetDocuments</td>
+<td>No</td>
+</tr>
+<tr>
+<td>SFTP</td>
+<td>Yes (if supported by server)</td>
+</tr>
+<tr>
+<td>OneDrive</td>
+<td>No</td>
+</tr>
+<tr>
+<td>SMB/Cifs</td>
+<td>Yes (if supported by server)</td>
+</tr>
+<tr>
+<td>SugarSync</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ubuntu One</td>
+<td>No</td>
+</tr>
+<tr>
+<td>WebDAV</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="why-are-my-files-not-being-synced-correctly">Why are my files not being synced correctly?</h2>
+<p>This answer will try to address a range of common reasons why your files may not sync as you thought they would:</p>
+<p>If subfolders or some files are not syncing at all - make sure sync of subfolders is enabled. Also check if the files or folders not marked as hidden (in Google Docs this will happen if you choose to hide items from being shown in "home"). If so, enable sync of hidden files. Also make sure items are not excluded because of a sync filter.</p>
+<p>Connections - make sure the allowed connection type is enabled at the time the sync should run or else the folderpair will not be synced at all.</p>
+<p>FTP/FTPES - if you have problems with FTP syncing, please try the legacy option first before contacting support.</p>
+<p>Special characters in file names - please use universal acceptable file characters in file and folder names. Some good recommendations can be found here: http://www.mtu.edu/umc/services/web/resources/cms/characters-to-avoid.html
+Box doesn't accept file names or folders that start with a dot ".".</p>
+<h2 id="foldersync-doesnt-delete-removed-files-in-a-two-way-sync-why">FolderSync doesn't delete removed files in a two-way sync. Why?</h2>
+<p>FolderSync has a fairly simple sync engine, meaning that FolderSync doesn't store state for each individual file. Thus the only information it knows about a file is what it knows at the time of the sync. Thus, if you delete a previously synced file for a two-way sync folderpair on either the local or remote end, this file will be resynced, because FolderSync sees this a an unsynced file. This is intentional.</p>
+<p>Note: From version 1.4.0 on FolderSync support deletions in two-way sync.</p>
+<h2 id="foldersync-overwrite-changes-in-my-localremote-file-and-uses-the-oldest-file">FolderSync overwrite changes in my local/remote file and uses the oldest file?</h2>
+<p>This can only happen if the rule "overwrite always" is used, or if you are experiencing the Android OS bug mentioned in the next question. If "overwrite always" is not set, FolderSync will never overwrite the newest file - but the bug mentioned results in the newest file having an older timestamp. See below for more details.</p>
+<h2 id="foldersync-sometimes-sync-files-that-havent-changed-why">FolderSync sometimes sync files that haven't changed. Why?</h2>
+<p>FolderSync compares the lastmodified timestamps on the local and the remote file when the option to overwrite older files in a folderpair is set. If the targetfile is older, it is overwritten by the sourcefile. AmazonS3 and Dropbox don't have any support for setting the timestamps of uploaded files, so when a file is uploaded to one of these services, FolderSync attempts to set the timestamp on the local file, to ensure the timestamps are in sync.</p>
+<p>Likewise when a file is downloaded, the timestamp of the localfile is set to that of the file in Dropbox or Amazon S3. This ensures, that on the next sync check FolderSync will see the files as identical.</p>
+<p>However, on some Android devices there is a bug in the operating system that makes setting the timestamp of the local file fail. Thus, at the next sync check, typcially when using two-way sync, FolderSync sees that the cloud and local file have different timestamps, and thus syncs the file again. This will then happen every time.</p>
+<p>From version 1.4.0 on the local and remote timestamp are stored in a database, and used for comparison at next sync. Along with an user configurable option to to ignore a timestamp difference, this should eliminate the resyncing problem.</p>
+<p>For information regarding the Android OS bug see these references:
+http://code.google.com/p/android/issues/detail?id=15480
+http://code.google.com/p/android/issues/detail?id=1699</p>
+<p>Even the official Dropbox app has the same problem:
+http://forums.dropbox.com/topic.php?id=22437</p>
+<h2 id="sync-failing-because-of-file-conflicts">Sync failing because of file conflicts</h2>
+<p>If a file that has not been synced before, exists both locally and remote when syncing, and the two corresponding files do not have an identical modified timestamp, you will get a conflict. The same conflict will happen for a file that has been previously synced, if both the local and remote file changes since last sync (gets updated with a new timestamp and perhaps new content, by other applications or you). You can configure the folderpair to use the overwrite oldest file in such a case using the conflict setting under FolderPair-&gt;Advanced. The remote and local file may be identical, other than the timestamp, but FolderSync can not verify this without overwriting one of them with the other, since a file-hash of the remote file is often not available. </p>
+<h2 id="bad-request-errors-or-failing-folderpairs">Bad request errors or failing folderpairs</h2>
+<p>Please try to re-authenticate account. In some cases you also need to re-select to remote folder for folderpairs, since the path structure on the remote end has changed because of usages of new API versions. Just re-select the folder you are already using, so the remote folder info can be refreshed.</p>
 
               
             </article>
@@ -974,7 +1238,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: General" rel="prev">
+        <a href="../scheduling/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Scheduling issues" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -983,20 +1247,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              General
+              Scheduling issues
             </div>
           </div>
         </a>
       
       
         
-        <a href="../sync/" class="md-footer__link md-footer__link--next" aria-label="Next: Sync issues" rel="next">
+        <a href="../drive/" class="md-footer__link md-footer__link--next" aria-label="Next: Google Drive issues" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Sync issues
+              Google Drive issues
             </div>
           </div>
           <div class="md-footer__button md-icon">
