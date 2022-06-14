@@ -6,7 +6,7 @@ Found in docs folder using [mkdocs.org](https://www.mkdocs.org).
 
 ### Commands
 
-* `mkdocs build -d ../docs` - Build docs
+* `mkdocs build -d ../docs` - Build docs (from docs-source folder)
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
