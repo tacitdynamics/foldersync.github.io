@@ -10,10 +10,12 @@ The path field on account allows for 1 or more placeholders contained in double 
 The end user will then be asked to enter User ID and Company Name when attempting to login in the startup wizard, when this is shown on import, in addition to username and password.
 
 Note:
-When handing login on import wizard for the end user, the app will try to login for other accounts using the same server and account type, using the username and password provided. Ensure any account with placeholders configured are at the top of the list, if another account without placeholders can use the same account, so the end user has less hassle with entering credentials.
+When handing login on import wizard for the end user, the app will try to login for other accounts using the same server and account type, using the username and password provided. Ensure any folderPair with placeholders configured is at the top of the list, if another folderPair without placeholders can use the same account, so the end user has less hassle with entering credentials and can avoid enter same login multiple times.
 
 ## FolderPairs
-The local path field on folderPair allows for 1 placeholder contained in double curly brackets called ExternalSdCard which will transform to the users external SD card path on import. For example you can specify the following device path (remember forward slash after placeholder):
+The local path field on folderPair allows for 1 placeholder contained in double curly brackets called ExternalSdCard which will transform to the users external SD card path on import. This will need to be manually edited in the JSON file.
+
+For example you can specify the following device path (remember forward slash after placeholder):
 
 `{{ExternalSdCard}}/some/path`
 
@@ -42,6 +44,8 @@ Don't touch existing accounts/folderPairs, import all as new.
 
 ## Editing the JSON file
 The JSON export file contains a description field, which content is shown in wizard and you can put some helpful text and a link in there if you need to point users to an online help guide.
+
+Also you will need to edit JSON file to use {{ExternalSdCard}} placeholder in SD card path field.
 
 ```
 {
