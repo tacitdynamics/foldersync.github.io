@@ -24,6 +24,3 @@ http://miuiandroid.com/forums/showthread.php?7779-Protected-apps-in-the-market-s
 Sadly any problems with Google Play is outside our control. You will have to ask Google for support.
 If you can't download a purchased app, try again a little later or try restarting your device, then it usually works. A few users simply can't purchase apps, and they continually get "Internal market error". 
 If you think you have accidentally purchased the app twice, then please check the billing statements. One of them will probably say cancelled and that no charge has been performed, so there is no need to contact support for a refund. 
-
-## How do I migrate settings from free to pro version?
-Create a database backup in the free version in the settings menu. Then fire up the pro version and restore database to import settings - this will overwrite existing settings so beware. That's its. This might not work on a few devices, but currently there is no solution for this.

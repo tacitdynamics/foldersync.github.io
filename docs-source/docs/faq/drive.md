@@ -1,4 +1,4 @@
-# Google Drive issues
+# Google Drive
 
 ## Exisisting account not working
 Please try to re-authenticate account or if that fails re-add Google Drive account and update FolderPairs to use newly added account. Some old API keys used by FolderSync can no longer be used, so adding a new account can unfortunately be required.

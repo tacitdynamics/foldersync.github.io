@@ -1,4 +1,9 @@
-# Scheduleding issues
+# Scheduleding
+
+## Why don't my scheduled sync run?
+There can be many reasons for this, most common that battery optimization is enabled for FolderSync (you will need to excluded it for scheduling to work properly). If you have the app installed on SD card, the scheduler will not be set on boot up of the device because of limitations in the Android OS. This is why FolderSync from version 1.7.0 on will have its install location set to "internalOnly". Otherwise it will mean scheduled syncs will not run until you have started FolderSync at least once.
+
+Another reason can be that the connection type is not allowed for the folderpair that is scheduled to sync, or some other condition is not met. You can also try enabling "Use full wakelock" in settings - some devices require this setting to be enabled or they will not wake correctly.
 
 ## Battery optimization
 Most common issue is that the Android OS is battery optimizing the FolderSync process so it cant run scheduled sync. To ensure sync can occur in background, disable any battery optimization for FolderSync in Android settings.

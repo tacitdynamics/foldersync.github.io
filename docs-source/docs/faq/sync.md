@@ -1,4 +1,4 @@
-# Sync issues 
+# Sync 
 
 ## How do I avoid conflicts when configuring a new folderpair where both folders already contains all the files?
 If a file that has not been synced before by FolderSync, exists both locally and remote when syncing and the two corresponding files do not have an identical modified timestamp, then you will get a conflict error for the files. 
@@ -6,16 +6,8 @@ The same conflict will happen for a file that has been previously synced, when b
 
 To eliminate this conflict when configuring a folderPair for the first time, and you KNOW the files are identical, you can set "FolderPair -> Sync option -> If both local and remote file are modified" option to "Assume files are identical". Only do this as a temporary thing for the first sync and only if you are 100% sure the files in both local and remote folder are indeed identical.
 
-## On Android 11 <sdcard>/Android/data folder can no longer be accessed, why?
-Android 11 has new file permission requirements and has restricted access to certain folders, like the data folder. It may be possible to add a specific Storage Access Framework permission on permissions screen to allow access to this folder, but unfortunately this will not work on all devices and may stop working completely in the future if Google wants it to.
-
-Note: Built-in vendor file managers can still access protected folders in some cases.
-
 ## Why does instant sync not work?
 This feature works only for local files device. When enabled, local file changes will be detected in the device folder, and a immediate partial sync will be attempted if other folderpair conditions allow this, such as network settings. Some custom ROMs may not support this. Newer versions of Android may not support this feature on external SD cards, since it appears folder/file change events are not propogated to apps properly.
-
-## Why do I get sync errors when my Amazon S3 bucket name has a period in it?
-Unfortunately bucket names with periods (.) in them is no longer supported by the Amazon API. This is because it results in SSL certificate errors when the Amazon server is accessed by an url like https://some.bucket.name.s3.amazonaws.com. I recommend the period character is replaced by a dash or other legal domain name character.
 
 ## What is the conflict setting and how does it work?
 When syncing a conflict can occur when both the local and the remote file has been modified since the last sync. You then have four options: to skip the file, to use the newest file or to use either the local or the remote file.
@@ -33,11 +25,6 @@ FolderSync's current sync engine progresses through the folder structure of the 
 Think about it like this: if you run a sync where no files are transferred, the time that the sync needs to run, is the same time as is needed to calculate the number files to be synced (if there had been any). So it doesn't make sense to show progress for syncs's where no files are transferred (because when the calculation is ready, the sync has completed). 
 
 A future version of FolderSync may include a updated sync engine, where this calculation is done, and all files are transferred at the end of the sync. Then it will be possible to show how many file transfers remain in sync.
-
-## Why don't my scheduled sync run?
-There can be many reasons for this. If you have the app installed on SD card, the scheduler will not be set on boot up of the device because of limitations in the Android OS. This is why FolderSync from version 1.7.0 on will have its install location set to "internalOnly". Otherwise it will mean scheduled syncs will not run until you have started FolderSync at least once.
-Another reason can be that the connection type is not allowed for the folderpair that is scheduled to sync, or some other condition is not met.
-You can also try enabling "Use full wakelock" in settings - some devices require this setting to be enabled or they will not wake correctly.
 
 ## When are modification timestamps for files updated?
 Generally modified time stamp for a file is set on download and upload, not at any other time. However not all cloud providers or protocols support setting modified time stamp of uploaded files, so images that is uploaded may get a newer modified time stamp than on the device etc.. 

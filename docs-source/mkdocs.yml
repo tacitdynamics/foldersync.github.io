@@ -70,9 +70,17 @@ nav:
     - Deploy configuration: mdm/deploy.md
     - Import configuration: mdm/import.md    
   - FAQ:
-    - General: faq/index.md
-    - Scheduling issues: faq/scheduling.md
-    - Sync issues: faq/sync.md   
-    - Google Drive issues: faq/drive.md    
-    - WebDAV issues: faq/webdav.md    
-    - Google Play: faq/googleplay.md    
+    - General:
+      - Misc: faq/index.md
+      - Google Play: faq/googleplay.md 
+      - Sync issues: faq/sync.md   
+      - Scheduling issues: faq/scheduling.md
+    - Accounts:
+      - Amazon S3: faq/s3.md     
+      - FTP: faq/ftp.md   
+      - Google Drive: faq/drive.md
+      - PCloud: faq/pcloud.md
+      - SFTP: faq/sftp.md   
+      - SMB: faq/smb.md   
+      - WebDAV: faq/webdav.md   
+    

@@ -1,32 +1,12 @@
-# General 
+# Misc 
 
-## TLS session resumption for FTP
-FolderSync doesn't support this, so if using a server like FileZilla you have to disable it in server settings to use Foldersync.
+## How do I migrate/move settings?
+Create a database backup in the settings menu. Then choose restore database to import settings in another app - this will overwrite existing settings so beware. That's its. This will work between lite and pro version as well.
 
-## Syncing files ending with dot (.) fails when uploading to SMB server?
-Unfortunately this is an issue with many SMB servers and/or widows, they do not accept files ending with dot. 
-The issue is not the missing extension, but the ending dot.
+## On Android 11 <sdcard>/Android/data folder can no longer be accessed, why?
+Android 11 has new file permission requirements and has restricted access to certain folders, like the data folder. It may be possible to add a specific Storage Access Framework permission on permissions screen to allow access to this folder, but unfortunately this will not work on all devices and may stop working completely in the future if Google wants it to.
 
-## I can not login to my SFTP server
-FolderSync uses the sshj library for SFTP. Please ensure your server algorithms are supported and key files are supported.
-
-[https://github.com/hierynomus/sshj](https://github.com/hierynomus/sshj)
-
-## I get a "Received message is too long: 1416128878" error with SFTP. Why? 
-This seems to be a problem with the server. It responds with something the FolderSync doesn't understand. See detailed answer below:
-
-When I try to use sftp or scp2, I get a message like this: 
-Received message too long (or "Bad packet length") 1416586337 
-and the connection fails. What's wrong? 
-
-"In order for this to work, the SSH session must be "clean" — that is, it must have on it only information transmitted by the programs at either end. What often happens, though, is that there are statements in either the system or per-user shell startup files on the server (.bashrc,.profile,/etc/csh.cshrc,.login, etc.) which output text messages on login, intended to be read by humans (likefortune,echo "Hi there!", etc.). Such code should only produce output on interactive logins, when there is a tty attached to standard input. If it does not make this test, it will insert these text messages where they don't belong: in this case, polluting the protocol stream between scp2/sftp and sftp-server. The first four bytes of the text gets interpreted as a 32-bit packet length, which will usually be a wildly large number, provoking the error message above"
-
-Taken from here: http://www.snailbook.com/faq/sftp-corruption.auto.html
-
-So you need to modify the SFTP server in some way, so that it doesn't send back plain text.
-
-## Login with private key file doesnt work
-Please ensure file is in one of the following formats: pkcs5, pkcs8, openssh-key-v1, ssh-rsa-cert-v01@openssh.com, ssh-dsa-cert-v01@openssh.com
+Note: Built-in vendor file managers can still access protected folders in some cases.
 
 ## Why are my transfer speeds slow?
 Transfer speeds can be slow for many reasons and can vary from device to device. FTPS/SFTP speeds can potentially be increased by disabling compression, since this limits how much data can be sent by how fast the CPU can compress the data. The speed of the memory card can also influence transfer speeds of course.
