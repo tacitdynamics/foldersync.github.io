@@ -1,3 +1,3 @@
-# Install
+# Permissions
 
 Coming soon.

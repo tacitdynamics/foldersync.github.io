@@ -1,3 +1,3 @@
-# Install
+# Automation
 
 Coming soon.

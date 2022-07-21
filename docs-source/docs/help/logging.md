@@ -1,3 +1,3 @@
-# Install
+# Logging
 
 Coming soon.

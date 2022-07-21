@@ -1,3 +1,3 @@
-# Install
+# Settings
 
 Coming soon.

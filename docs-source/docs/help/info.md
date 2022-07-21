@@ -1,3 +1,3 @@
-# Install
+# Info
 
 Coming soon.

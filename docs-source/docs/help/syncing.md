@@ -1,3 +1,3 @@
-# Install
+# Syncing
 
 Coming soon.

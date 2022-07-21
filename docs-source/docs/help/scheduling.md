@@ -1,3 +1,3 @@
-# Install
+# Scheduling
 
 Coming soon.

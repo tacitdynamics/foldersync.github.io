@@ -44,25 +44,36 @@ markdown_extensions:
 - pymdownx.caret
 - pymdownx.keys
 - pymdownx.mark
-- pymdownx.tilde 
+- pymdownx.tilde
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- attr_list
+- md_in_html
 
 # Page tree
 nav:
   - Home:
     - Getting started: index.md
   - Userguide:
-    - General: help/index.md
-    - Permissions: help/index.md
-    - Configuring sync:
-      - Sync types: help/index.md    
-      - Adding account: help/index.md
-      - Creating folderPair: help/index.md
-    - Advanced:
-      - Automation: help/index.md
-      - Notifications: help/index.md
-    - Support:
-      - Known issus: help/index.md      
-      - Debug logging: help/index.md
+    - General: 
+      - Install: help/index.md
+      - Info: help/info.md     
+      - Permissions: help/permissions.md
+      - Settings: help/settings.md
+      - Debug logging: help/logging.md
+    - Accounts:
+      - What is an account: help/accounts.md
+      - Add cloud service account: help/cloudservices.md
+      - Add file protocol account: help/fileprotocols.md
+    - FolderPairs:
+      - Creating folderPair: help/folderpairs.md
+      - Scheduling: help/scheduling.md
+      - Automation: help/automation.md
+      - Notifications: help/notifications.md
+      - Webhooks: help/webhooks.md
+      - Running sync: help/syncing.md
+      - Sync status: help/syncstatus.md
   - MDM:
     - Configuration deployment: mdm/index.md
     - Glossary: mdm/glossary.md

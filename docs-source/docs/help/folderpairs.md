@@ -1,3 +1,3 @@
-# Install
+# FolderPairs
 
 Coming soon.
