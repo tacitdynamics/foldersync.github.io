@@ -6,7 +6,7 @@ Some cloud services support OAuth authentication where you login on the cloud pr
 ## Using OAuth authentication
 For cloud services like Box, Dropbox Google Drive, Hubic, OneDrive, Yandex and pCloud you can initiate the browser based authentication flow by pressing [Authenticate Account] button. After you have authenticated in the browser it should redirect you back to the app and you can save the account.
 
-If you are instead redirect back to a webpage, you can copy the fallback OAuth code, press back until you see the account screen in FolderSync and again and use the [Enter OAuth code] button to enter the code.
+If you are instead redirected back to a webpage, you can copy the fallback OAuth code, press back until you see the account screen in FolderSync and again and use the [Enter OAuth code] button to enter the code.
 
 !!! warning
 

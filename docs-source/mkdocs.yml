@@ -56,9 +56,8 @@ nav:
   - Home:
     - Getting started: index.md
   - Userguide:
-    - General: 
-      - Install: help/index.md
-      - Info: help/info.md     
+    - Getting started: 
+      - Installation: help/index.md 
       - Permissions: help/permissions.md
       - Settings: help/settings.md
       - Debug logging: help/logging.md
@@ -69,9 +68,11 @@ nav:
     - FolderPairs:
       - Creating folderPair: help/folderpairs.md
       - Scheduling: help/scheduling.md
-      - Automation: help/automation.md
+      - Scheduling: help/scheduling.md
       - Notifications: help/notifications.md
+      - Filters: help/filters.md
       - Webhooks: help/webhooks.md
+      - Automation: help/automation.md
       - Running sync: help/syncing.md
       - Sync status: help/syncstatus.md
   - MDM:
