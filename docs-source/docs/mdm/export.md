@@ -24,7 +24,7 @@ This will then become something like this after import, if external SD card is f
 `/storage/6464-4544}/some/path`
 
 ## Export configuration JSON
-To export the configuration file go to **About->Settings->Export Configuration** in the Business edition of foldersync. The JSON file will be written to the configured backup folder.
+To export the configuration file go to **About->Settings->Advanced->Export Configuration** in the Business edition of foldersync. The JSON file will be written to the configured backup folder.
 
 When exporting, the option to include credentials is not selected. It is not recommended to include credentials other than for testing or for manual import use.
 

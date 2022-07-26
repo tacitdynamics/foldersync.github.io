@@ -6,8 +6,9 @@ This site contains documentation for Foldersync android app.
 
 You can get FolderSync by purchasing the app on Google Play or from our website.
 
-[Google Play](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full){ .md-button .md-button--primary }
-[Purchase from website](https://www.tacit.dk/foldersync/purchase/){ .md-button .md-button--primary }
+[:material-google-play: Get from Google Play](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full){ .md-button .md-button--primary }
+
+[:material-web: Purchase on website](https://www.tacit.dk/foldersync/purchase/){ .md-button .md-button--primary }
 
 
 ## Technical requirements
