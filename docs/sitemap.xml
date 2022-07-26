@@ -2,97 +2,162 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://foldersync.io/docs/</loc>
-         <lastmod>2022-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://foldersync.io/docs/changelog/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/drive/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/ftp/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/googleplay/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/pcloud/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/s3/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/scheduling/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/sftp/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/smb/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/sync/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/faq/webdav/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/help/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/accounts/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/automation/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/cloudservices/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/fileprotocols/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/filters/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/folderpairs/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/logging/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/notifications/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/permissions/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/scheduling/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/settings/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/syncing/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/syncstatus/</loc>
+         <lastmod>2022-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://foldersync.io/docs/help/webhooks/</loc>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/mdm/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/mdm/deploy/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/mdm/export/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/mdm/glossary/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://foldersync.io/docs/mdm/import/</loc>
-         <lastmod>2022-07-20</lastmod>
+         <lastmod>2022-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
